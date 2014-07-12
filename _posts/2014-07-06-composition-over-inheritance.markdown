@@ -19,7 +19,7 @@ Suppose we create an application which let certain animals wag their tails. The 
 
 Class Diagram:
 
-![](/assets/posts/2014/07/inheritance.jpg)
+![](/assets/posts/2014/07/Inheritance.jpg)
 
 Code:
 
@@ -64,7 +64,7 @@ A core design principle of OOP is separating aspects that vary from what stays t
 
 Class diagram:
 
-![](/assets/posts/2014/07/composition.jpg)
+![](/assets/posts/2014/07/Composition.jpg)
 
 Code:
 
