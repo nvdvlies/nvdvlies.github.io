@@ -1,0 +1,34 @@
+---
+layout: default
+title: Niels van der Vlies - Contact
+---
+<h1>Contact</h1>
+<form id="contact" method="post" class="form" action="http://getsimpleform.com/messages?form_api_token=7dd698865efb2fa7c2f8ada3f491dc29">
+	<input type='hidden' name='redirect_to' value='{{ site.url }}/contact/thank-you.html' />
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required="required" />
+			</div>
+			<div class="form-group">
+				<label for="email">E-mail</label>
+				<div class="input-group">
+					<span class="input-group-addon">
+						<span class="glyphicon glyphicon-envelope"></span>
+					</span>
+					<input type="email" class="form-control" id="email" name="email" placeholder="Enter e-mail address" required="required" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<label for="name">Message</label>
+				<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Enter message"></textarea>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<button type="submit" class="btn btn-primary pull-right" id="btnSend">Send Message</button>
+		</div>
+	</div>
+</form>

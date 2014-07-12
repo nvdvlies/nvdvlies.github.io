@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+	<head>
+		<title>{{ page.title }}</title>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/css/syntax.css">
+		<link rel="stylesheet" href="/assets/css/custom.css">
+	</head>
+	<body>
+		<div class="container">	
+			<div class="row">
+				<div class="col-sm-12 blog-main">
+					<div class="header">
+						<a class="pull-left">
+							<img class="media-object picture-border img-circle" src="/assets/images/me.png" style="width:100px;height:100px;">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Niels van der Vlies <small>Breda, Netherlands</small></h4>
+							<h5>Software Developer at <a href="http://www.pinkelephant.nl/">Pink Elephant Netherlands</a></h5>
+							<hr style="margin:8px auto">
+
+							{% assign url = page.url|remove:'index.html' %}
+							{% for link in site.navigation %}
+								<a class="btn btn-{% if url == link.url %}primary{% else %}default{% endif %} btn-xs" href="{{link.url}}">{{link.text}}</a>
+							{% endfor %}
+						</div>
+					</div>
+
+					{{ content }}
+					
+					<div id="footer">
+						<div class="container text-center">
+							<p class="text-muted credit">
+								<small>
+									Copyright &copy; {{ site.time | date: '%Y' }} Niels van der Vlies.
+									Kindly hosted by <a href="https://github.com/">GitHub</a>.
+								</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+		{% include google_analytics.html %}
+	</body>
+</html>
+
+
+
+
