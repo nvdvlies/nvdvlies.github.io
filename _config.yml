@@ -19,3 +19,5 @@ navigation:
 
 url: "http://nvdvlies.github.io"
 baseurl: "/"
+
+timezone: "Europe/Amsterdam"
