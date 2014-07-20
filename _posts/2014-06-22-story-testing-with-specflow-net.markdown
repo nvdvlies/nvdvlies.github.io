@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Story Testing with SpecFlow.NET"
-date:   2014-06-22 00:00:00
+date:   2014-06-22 12:00:00
 ---
 
 User stories are a great way to collaborate between developers, business analysts, quality assurance and other stakeholders, because everyone is able to read and/or write one.

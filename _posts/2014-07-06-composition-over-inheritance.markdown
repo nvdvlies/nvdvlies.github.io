@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Composition > Inheritance"
-date:   2014-07-06 00:00:00
+date:   2014-07-06 12:00:00
 ---
 
 When an aspiring developer starts learning OOP, a lot of courses focus extensively on inheritance.

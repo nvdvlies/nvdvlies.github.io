@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A comment about comments"
-date:   2014-06-29 00:00:00
+date:   2014-06-29 12:00:00
 ---
 
 To make your code maintainable by others you just add lots and lots of comments. 
