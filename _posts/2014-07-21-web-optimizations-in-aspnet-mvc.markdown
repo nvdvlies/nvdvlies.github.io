@@ -149,7 +149,7 @@ The last step is to edit our HTML page and replace the javascript and stylesheet
 </html>
 {% endhighlight %}
 
-When running the application and looking at the source, it should resemble much of the snippet below. Note that when in debug mode you will still get the original HTML source. You can enable optimizations in debug mode by adding the line `BundleTable.EnableOptimizations = true;` within the `BundleConfig` class. You might have noticed that a "v" parameter has been  appended to the bundle name automatically. This will ensure the browser uses the latest version after you've made changes to a script or stylesheet. When opening one of these URL's you will notice the content has been transformed to a minified version of the original.
+When running the application and looking at the source, it should resemble much of the snippet below. Note that when in debug mode you will still get the original HTML source. You can enable optimizations in debug mode by adding the line `BundleTable.EnableOptimizations = true;` within the `BundleConfig` class. You might have noticed that a "v" parameter has been  appended to the bundle path automatically. This will ensure the browser uses the latest version after you've made changes to a script or stylesheet. When opening one of these URL's you will notice the content has been transformed to a minified version of the original.
 
 {% highlight html linenos %}
 <!DOCTYPE html>
